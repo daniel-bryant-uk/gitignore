@@ -1,6 +1,5 @@
+#mvn/java specific
 target/
-
-#java specific
 *.class
 
 ## generic files to ignore
@@ -15,6 +14,7 @@ target/
 .classpath
 .project
 
+# IntelliJ IDEA specific files
 *.ucls
 .idea/
 *.iml
